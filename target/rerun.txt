@@ -1,1 +1,4 @@
-file:src/test/resources/features/AccountTypes.feature:10
+file:src/test/resources/features/login.feature:9:19
+file:src/test/resources/features/LoginWithParameters.feature:3
+file:src/test/resources/features/AccountTypes.feature:4
+file:src/test/resources/features/Contacts.feature:3

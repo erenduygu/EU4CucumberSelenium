@@ -15,7 +15,7 @@ public class LoginStepDefs {
     }
 
     @When("the user enters the driver information")
-    public void the_user_enters_the_driver_information() {
+    public void gthe_user_enters_the_driver_information() {
 
         String username = ConfigurationReader.get("driver_username");
         String password = ConfigurationReader.get("driver_password");

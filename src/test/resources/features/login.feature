@@ -4,7 +4,7 @@ Feature: Users should be able to login
 
   Background:
     Given the user is on the login page
-
+  @smoke
   @driver @VYT-123
   Scenario: Login as a driver
     When the user enters the driver information

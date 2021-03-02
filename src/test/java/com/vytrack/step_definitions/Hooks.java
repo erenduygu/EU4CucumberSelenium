@@ -1,15 +1,17 @@
 package com.vytrack.step_definitions;
 
+import com.vytrack.utilities.*;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.*;
 import org.openqa.selenium.*;
 
 import java.sql.*;
+import java.util.concurrent.*;
 
 public class Hooks {
     @Before
     public void setUp(){
-        System.out.println("\tthis is coming from BEFORE");
+        Driver.get().manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
     }
 
     @After
